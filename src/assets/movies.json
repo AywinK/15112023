@@ -1,0 +1,50 @@
+{
+    "0": {
+        "title": "The Shawshank Redemption",
+        "img": "The Shawshank Redemption",
+        "director": "Frank Darabont",
+        "actorsArr": [
+            "Tim Robbins",
+            "Morgan Freeman",
+            "Bob Gutton"
+        ],
+        "year": 1994,
+        "genre": "Drama"
+    },
+    "1": {
+        "title": "The Godfather",
+        "img": "The Godfather",
+        "director": "Francis Ford Coppola",
+        "actorsArr": [
+            "Marlon Brando",
+            "Al Pacino",
+            "James Caan"
+        ],
+        "year": 1972,
+        "genre": "Crime, Drama"
+    },
+    "2": {
+        "title": "The Dark Knight",
+        "img": "The Dark Knight",
+        "director": "Christopher Nolan",
+        "actorsArr": [
+            "Christian Bale",
+            "Heath Ledger",
+            "Aaron Eckhart"
+        ],
+        "year": 2008,
+        "genre": "Action, Crime, Drama, Thriller"
+    },
+    "3": {
+        "title": "The Godfather Part II",
+        "img": "The Godfather Part II",
+        "director": "Francis Ford Coppola",
+        "actorsArr": [
+            "Al Pacino",
+            "Robert De Niro",
+            "Robert Duvall"
+        ],
+        "year": 1974,
+        "genre": "Crime, Drama"
+    }
+}
