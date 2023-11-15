@@ -39,7 +39,7 @@ function App() {
         const { title, img, director, actorsArr, year, genre } = movies[movieKey];
 
         return (
-          <Movie key={title} title img director actorsArr year genre />
+          <Movie key={title} title={title} img={img} director={director} actorsArr={actorsArr} year={year} genre={genre} />
         )
       })}
 
