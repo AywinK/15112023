@@ -5,7 +5,8 @@ import './App.css';
 // import Movie from './components/Movie';
 import MyComponent from './ClassComponents/MyComponent';
 import NewClassComponent from './ClassComponents/NewClassComponent';
-import Counter from "./ClassComponents/Counter";
+// import Counter from "./ClassComponents/Counter";
+import Counter from './components/Counter';
 
 function App() {
 
@@ -48,7 +49,7 @@ function App() {
 
       <MyComponent />
       <NewClassComponent />
-      <Counter/>
+      <Counter />
 
     </>
   )
