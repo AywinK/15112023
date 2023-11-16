@@ -1,8 +1,11 @@
 
 import './App.css';
 // import people from "./assets/people.json";
-import movies from "./assets/movies.json"
-import Movie from './components/Movie';
+// import movies from "./assets/movies.json"
+// import Movie from './components/Movie';
+import MyComponent from './ClassComponents/MyComponent';
+import NewClassComponent from './ClassComponents/NewClassComponent';
+import Counter from "./ClassComponents/Counter";
 
 function App() {
 
@@ -34,14 +37,18 @@ function App() {
         )
       })} */}
 
-      {Object.keys(movies).map(movieKey => {
+      {/* {Object.keys(movies).map(movieKey => {
 
         const { title, img, director, actorsArr, year, genre } = movies[movieKey];
 
         return (
           <Movie key={title} title={title} img={img} director={director} actorsArr={actorsArr} year={year} genre={genre} />
         )
-      })}
+      })} */}
+
+      <MyComponent />
+      <NewClassComponent />
+      <Counter/>
 
     </>
   )
